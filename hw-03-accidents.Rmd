@@ -3,9 +3,14 @@ title: "HW 03 - Road traffic accidents"
 author: "Your Name"
 output: 
   tufte::tufte_html:
-    css: ../hw.css
+    css: ../lab.css
     tufte_variant: "envisioned"
     highlight: pygments
+  tufte::tufte_handout:
+    latex_engine: xelatex
+    highlight: pygments
+    keep_tex: true
+    citation_package: natbib
 link-citations: true
 ---
 
